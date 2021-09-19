@@ -5,10 +5,11 @@ import ReactGA from 'react-ga';
 
 import { Navbar, Exchanges, Homepage, Cryptocurrencies, CryptoDetails, News } from './components';
 import './App.css'; 
-ReactGA.initialize('286927318');
 
 function App() {
-    return (
+ReactGA.initialize('286927318');
+ReactGA.pageview(window.location.pathname + window.location.search);
+return (
         <div className="app">
             <div className="navbar">
                 <Navbar />
