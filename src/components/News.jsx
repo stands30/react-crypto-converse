@@ -13,7 +13,6 @@ const News = ({simplified}) => {
     const [newsCategory, setnewsCategory] = useState('Cryptocurrency')
     const count = simplified ? 6: 12;
     const { data: cryptoNews, isFetching } = useGetCryptoNewsQuery({ newsCategory: newsCategory, count: simplified});
-    console.log( cryptoNews );
     if( !cryptoNews?.value) return  <Loader />;
     return (
         <Row gutter={[24, 24]}>
