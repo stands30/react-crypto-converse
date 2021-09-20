@@ -27,8 +27,7 @@ return (
                 </Layout>
             <div className="footer">
                 <Typography.Title  level={5} style={{color: 'white', textAlign: 'center'}}>
-                    Cryptoverse 
-                    All Rights Reserved <br/>
+                    Cryptoverse @Developed By <a href="https://dsouzastanleyportfolio.herokuapp.com/" target="_blank">Stanley Dsouza</a><br/>
                     <Space>
                         <Link to="/">Home</Link>
                         <Link to="/exchanges">Exchanges</Link>
