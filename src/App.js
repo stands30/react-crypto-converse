@@ -27,12 +27,12 @@ return (
                 </Layout>
             <div className="footer">
                 <Typography.Title  level={5} style={{color: 'white', textAlign: 'center'}}>
-                    Cryptoverse @Developed By <a href="https://dsouzastanleyportfolio.herokuapp.com/" target="_blank">Stanley Dsouza</a><br/>
                     <Space>
                         <Link to="/">Home</Link>
                         <Link to="/exchanges">Exchanges</Link>
                         <Link to="/news">News</Link>
-                    </Space>
+                    </Space><br/>
+                    <p>Cryptoverse @Developed By <a href="https://dsouzastanleyportfolio.herokuapp.com/" target="_blank">Stanley Dsouza</a></p>
                 </Typography.Title>
             </div>
             </div>
